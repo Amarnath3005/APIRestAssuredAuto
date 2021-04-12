@@ -1,60 +1,66 @@
-## Project:
-REST API Automation using REST Assured 
+Project:
 
-## Description:
-To automate the GET response of the 16 days Weather forecast REST API 
+RestAssured API Automation
 
-## Technology Stack
+The Mission:
 
-*1. Rest Assured*
+To implement a test to automate the following acceptance criteria (in the form of a BDD)
 
-*2. Cucumber*
+TECH/Framework Used:
 
-*3. Java*
-
-*4. Logging*
-
-*5. Maven*
-
-*6. Cucumber -html -report*
+1.) Java
+2.) RestAssured
+3.) Maven
+4.) Cucumber
+5.) Maven-Cucumber-Reporting
 
 
-## Installation and execution
+Features:
 
-### Following are the installations need to run the test automation suite###
-**JDK**
-**Maven**
+1.)RestAssured is used for API Testing
+2.)POJO classes are used for Serialization and deserialization (setter and getter method)
+3.)Request and Response Builders , POJO classes are used for reuseability of the code
+4.)Maven - Build management tool and Project Management tool is used for projects build, dependency and documentation.
+5.)The End Point URL's and key is maintained in global Properties files for reuseablility purposes
+6.)Setup and Teardown is added for every test and is captured in logs.
+7.)Basic Maven Cucumber reporting tool has been integrated.
 
 
-*To run the script from a command line in a Terminal window you can use the below command.*
-```
-mvn test verify -Dcucumber.options="--tags @auto"
-```
+Installation:
 
-## Reporting and Logging
-**Reporting Path**
-```
-./target/report/cucumber-html-reports/report-feature_4277810500.html
-```
-**Logging Path**
-```
-./src/test/java/Logs/APILog
-```
+Java
+Maven
 
-## Assumptions
+Execution:
 
-```
-1.The GET end point URL "https://api.weatherbit.io/v2.0/forecast/daily" gets one postal code at a time and hence the validation has been performed to test one postal code at a time. 
-2.The key and the GET End point URLS are maintained in the global.properties file
-3.The objective is to check the conducive days that the surfer can visit beached based on the three conditions : days, temp and uv
-4.The days should be only thrursday and Friday - First filter
-5.The temperature should be between 20 and 30(end points included) and assumed temp is the "temp" key from  the response JSON  - Second filter 
-6.The uv should be less than or equal to 3 - Third filter
-7.The days values in the feature file examples should be strictly with a single space
-8.The tear up and tear down information will also appear on logs
-9.Validated the response of Bondi, Shelly and Manly beaches of Sydney and arrived at the days that are condcive based on the three filters mentioned above.
-```
+To run the script from a Terminal/Command Prompt 
 
-## Documentation
+Open the terminal/Command Prompt and navigate to the folder where the scripts are. They are in the workspace/folder. Navigate till 'BeachWeatherForecastAPIAutomation'. eg., /Users/amarnathvattigunta/Desktop/autotoauto/BeachWeatherForecastAPIAutomation
 
-*https://github.com/technoShopp/RestAssuredAPIAutomation/tree/master/Execution%20Instructions*
+Then type the following command and click on enter.
+
+mvn test verify -Dcucumber.options="--tags @forecast"
+
+
+Reports:
+
+Navigate to project and reports can be found in below location.
+/AustraliaBeachesWeatherForecast/target/report/cucumber-html-reports/report-feature_3620947105.html
+
+Logs:
+
+BeachWeatherForecastAPIAutomation/src/test/java/Logs/APILog.log
+
+
+Assumptions:
+
+1.)The response for GET request provides one location at a time.Therefore validation is performed on one location at a time
+2.)The weather forecast is for the next 16 days based on the API response
+3.)The days surfer wants to visit the beach is Monday and Friday
+4.)The preferred forecast for the surfer on Monday and Friday are temperature is between 12 -30 and UV is less than or equal to 12.
+5.)Validating for beaches around Sydney based on the above parameters  days of the week, temperature, UV and number of days
+
+
+
+
+

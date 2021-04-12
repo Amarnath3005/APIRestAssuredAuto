@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-01T06:40:45.568Z",
+        "start_timestamp": "2021-04-12T08:51:09.776Z",
         "before": [
           {
             "result": {
-              "duration": 78000000,
+              "duration": 74000000,
               "status": "passed"
             },
             "match": {
@@ -16,9 +16,9 @@
           }
         ],
         "line": 13,
-        "name": "As a choosey surfer wanting to visit \"Manly\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data1\"",
+        "name": "As a choosey surfer wanting to visit \"CurlCurl\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Curl Curl\"",
         "description": "",
-        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;2",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;2",
         "after": [
           {
             "result": {
@@ -34,129 +34,131 @@
         "steps": [
           {
             "result": {
-              "duration": 1141000000,
+              "duration": 630000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "I like to surf beach \"Manly\" in Sydney with the \"2095\" and \"AU\"",
+            "name": "I like to surf beach \"CurlCurl\" in Sydney with the \"2096\" and \"AU\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Manly\"",
+                  "val": "\"CurlCurl\"",
                   "offset": 21
                 },
                 {
-                  "val": "\"2095\"",
-                  "offset": 48
+                  "val": "\"2096\"",
+                  "offset": 51
                 },
                 {
                   "val": "\"AU\"",
-                  "offset": 59
+                  "offset": 62
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 13613000000,
+              "duration": 3693000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hit the GET request",
+            "name": "I looked Upto the weather forecast for next three months",
             "match": {
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 21000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "name": "I would like to surf on \"2\" and those days should be \"monday friday\" in \"CurlCurl\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"2\"",
-                  "offset": 18
+                  "offset": 24
                 },
                 {
-                  "val": "\"thursday friday\"",
-                  "offset": 47
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"CurlCurl\"",
+                  "offset": 72
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I check for \"temperature\" to be \"20and30\" for \"Manly\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"temperature\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"20and30\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"Manly\"",
-                  "offset": 46
-                }
-              ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
           },
           {
             "result": {
               "duration": 1000000,
               "status": "passed"
             },
+            "line": 7,
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"CurlCurl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"12and30\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"CurlCurl\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
             "line": 8,
-            "name": "I check for \"uv\" to be \"3\" for \"Manly\"",
+            "name": "I prefer the \"uv\" to be \"12\" for \"CurlCurl\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"uv\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"3\"",
-                  "offset": 23
+                  "val": "\"12\"",
+                  "offset": 24
                 },
                 {
-                  "val": "\"Manly\"",
-                  "offset": 31
+                  "val": "\"CurlCurl\"",
+                  "offset": 33
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@auto"
+            "name": "@forecast"
           }
         ]
       },
       {
-        "start_timestamp": "2021-02-01T06:41:00.531Z",
+        "start_timestamp": "2021-04-12T08:51:14.269Z",
         "before": [
           {
             "result": {
-              "duration": 204000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -165,9 +167,159 @@
           }
         ],
         "line": 14,
-        "name": "As a choosey surfer wanting to visit \"Shelly\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data2\"",
+        "name": "As a choosey surfer wanting to visit \"DeeWhy\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Dee Why\"",
         "description": "",
-        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;3",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"DeeWhy\" in Sydney with the \"2099\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeeWhy\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2099\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1585000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I looked Upto the weather forecast for next three months",
+            "match": {
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I would like to surf on \"2\" and those days should be \"monday friday\" in \"DeeWhy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"DeeWhy\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"DeeWhy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"12and30\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"DeeWhy\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I prefer the \"uv\" to be \"12\" for \"DeeWhy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DeeWhy\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forecast"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-12T08:51:15.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Shelly\"",
+        "description": "",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;4",
         "after": [
           {
             "result": {
@@ -203,41 +355,45 @@
                   "offset": 60
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2136000000,
+              "duration": 1512000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hit the GET request",
+            "name": "I looked Upto the weather forecast for next three months",
             "match": {
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "name": "I would like to surf on \"2\" and those days should be \"monday friday\" in \"Shelly\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"2\"",
-                  "offset": 18
+                  "offset": 24
                 },
                 {
-                  "val": "\"thursday friday\"",
-                  "offset": 47
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 72
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -246,23 +402,23 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "I check for \"temperature\" to be \"20and30\" for \"Shelly\"",
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"Shelly\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"temperature\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"20and30\"",
-                  "offset": 32
+                  "val": "\"12and30\"",
+                  "offset": 33
                 },
                 {
                   "val": "\"Shelly\"",
-                  "offset": 46
+                  "offset": 47
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
@@ -271,39 +427,39 @@
               "status": "passed"
             },
             "line": 8,
-            "name": "I check for \"uv\" to be \"3\" for \"Shelly\"",
+            "name": "I prefer the \"uv\" to be \"12\" for \"Shelly\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"uv\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"3\"",
-                  "offset": 23
+                  "val": "\"12\"",
+                  "offset": 24
                 },
                 {
                   "val": "\"Shelly\"",
-                  "offset": 31
+                  "offset": 33
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@auto"
+            "name": "@forecast"
           }
         ]
       },
       {
-        "start_timestamp": "2021-02-01T06:41:02.889Z",
+        "start_timestamp": "2021-04-12T08:51:17.382Z",
         "before": [
           {
             "result": {
-              "duration": 15000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "match": {
@@ -311,13 +467,14 @@
             }
           }
         ],
-        "line": 15,
-        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data3\"",
+        "line": 16,
+        "name": "As a choosey surfer wanting to visit \"Bondi\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Bondi\"",
         "description": "",
-        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;4",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;5",
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -330,6 +487,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -349,19 +507,19 @@
                   "offset": 59
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1453000000,
+              "duration": 1504000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hit the GET request",
+            "name": "I looked Upto the weather forecast for next three months",
             "match": {
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
             },
             "keyword": "When "
           },
@@ -370,19 +528,23 @@
               "status": "passed"
             },
             "line": 6,
-            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "name": "I would like to surf on \"2\" and those days should be \"monday friday\" in \"Bondi\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"2\"",
-                  "offset": 18
+                  "offset": 24
                 },
                 {
-                  "val": "\"thursday friday\"",
-                  "offset": 47
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 72
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -391,23 +553,23 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"Bondi\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"temperature\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"20and30\"",
-                  "offset": 32
+                  "val": "\"12and30\"",
+                  "offset": 33
                 },
                 {
                   "val": "\"Bondi\"",
-                  "offset": 46
+                  "offset": 47
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
@@ -416,39 +578,39 @@
               "status": "passed"
             },
             "line": 8,
-            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "name": "I prefer the \"uv\" to be \"12\" for \"Bondi\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"uv\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"3\"",
-                  "offset": 23
+                  "val": "\"12\"",
+                  "offset": 24
                 },
                 {
                   "val": "\"Bondi\"",
-                  "offset": 31
+                  "offset": 33
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@auto"
+            "name": "@forecast"
           }
         ]
       },
       {
-        "start_timestamp": "2021-02-01T06:41:04.373Z",
+        "start_timestamp": "2021-04-12T08:51:18.901Z",
         "before": [
           {
             "result": {
-              "duration": 16000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "match": {
@@ -457,9 +619,9 @@
           }
         ],
         "line": 17,
-        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"NEGATIVE SCENARIO\" - \"GIVEN DATES ARE NOT THURSDAY AND FRIDAY\"",
+        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Balmoral\"",
         "description": "",
-        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;5",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;6",
         "after": [
           {
             "result": {
@@ -478,35 +640,35 @@
               "status": "passed"
             },
             "line": 4,
-            "name": "I like to surf beach \"Bondi\" in Sydney with the \"2026\" and \"AU\"",
+            "name": "I like to surf beach \"Balmoral\" in Sydney with the \"2088\" and \"AU\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bondi\"",
+                  "val": "\"Balmoral\"",
                   "offset": 21
                 },
                 {
-                  "val": "\"2026\"",
-                  "offset": 48
+                  "val": "\"2088\"",
+                  "offset": 51
                 },
                 {
                   "val": "\"AU\"",
-                  "offset": 59
+                  "offset": 62
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1359000000,
+              "duration": 1537000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hit the GET request",
+            "name": "I looked Upto the weather forecast for next three months",
             "match": {
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
             },
             "keyword": "When "
           },
@@ -515,19 +677,23 @@
               "status": "passed"
             },
             "line": 6,
-            "name": "I like to surf on \"2\" and those days should be \"tuesday friday\"",
+            "name": "I would like to surf on \"2\" and those days should be \"monday friday\" in \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"2\"",
-                  "offset": 18
+                  "offset": 24
                 },
                 {
-                  "val": "\"tuesday friday\"",
-                  "offset": 47
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Balmoral\"",
+                  "offset": 72
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -536,64 +702,65 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"temperature\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"20and30\"",
-                  "offset": 32
+                  "val": "\"12and30\"",
+                  "offset": 33
                 },
                 {
-                  "val": "\"Bondi\"",
-                  "offset": 46
+                  "val": "\"Balmoral\"",
+                  "offset": 47
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "name": "I prefer the \"uv\" to be \"12\" for \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"uv\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"3\"",
-                  "offset": 23
+                  "val": "\"12\"",
+                  "offset": 24
                 },
                 {
-                  "val": "\"Bondi\"",
-                  "offset": 31
+                  "val": "\"Balmoral\"",
+                  "offset": 33
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@auto"
+            "name": "@forecast"
           }
         ]
       },
       {
-        "start_timestamp": "2021-02-01T06:41:05.748Z",
+        "start_timestamp": "2021-04-12T08:51:20.449Z",
         "before": [
           {
             "result": {
-              "duration": 16000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "match": {
@@ -602,9 +769,160 @@
           }
         ],
         "line": 19,
-        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"NEGATIVE SCENARIO\" - \"GIVEN DAYS NOT EQUAL TO 2\"",
+        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"ITS NOT A MONDAY OR FRIDAY\"",
         "description": "",
-        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;6",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Shelly\" in Sydney with the \"2261\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2261\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1525000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I looked Upto the weather forecast for next three months",
+            "match": {
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I would like to surf on \"2\" and those days should be \"tuesday thursday\" in \"Shelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"tuesday thursday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"Shelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"12and30\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I prefer the \"uv\" to be \"12\" for \"Shelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forecast"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-12T08:51:22.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"NUMBER OF DAYS IS MORE THAN 3\"",
+        "description": "",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;8",
         "after": [
           {
             "result": {
@@ -620,39 +938,39 @@
         "steps": [
           {
             "result": {
-              "duration": 15000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "I like to surf beach \"Bondi\" in Sydney with the \"2026\" and \"AU\"",
+            "name": "I like to surf beach \"Balmoral\" in Sydney with the \"2088\" and \"AU\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bondi\"",
+                  "val": "\"Balmoral\"",
                   "offset": 21
                 },
                 {
-                  "val": "\"2026\"",
-                  "offset": 48
+                  "val": "\"2088\"",
+                  "offset": 51
                 },
                 {
                   "val": "\"AU\"",
-                  "offset": 59
+                  "offset": 62
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1469000000,
+              "duration": 1627000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hit the GET request",
+            "name": "I looked Upto the weather forecast for next three months",
             "match": {
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_looked_Upto_the_weather_forecast_for_next_three_months()"
             },
             "keyword": "When "
           },
@@ -661,19 +979,23 @@
               "status": "passed"
             },
             "line": 6,
-            "name": "I like to surf on \"3\" and those days should be \"tuesday friday\"",
+            "name": "I would like to surf on \"3\" and those days should be \"monday friday\" in \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"3\"",
-                  "offset": 18
+                  "offset": 24
                 },
                 {
-                  "val": "\"tuesday friday\"",
-                  "offset": 47
+                  "val": "\"monday friday\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Balmoral\"",
+                  "offset": 72
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_would_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -682,23 +1004,23 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "name": "I prefer the \"temperature\" to be \"12and30\" for \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"temperature\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"20and30\"",
-                  "offset": 32
+                  "val": "\"12and30\"",
+                  "offset": 33
                 },
                 {
-                  "val": "\"Bondi\"",
-                  "offset": 46
+                  "val": "\"Balmoral\"",
+                  "offset": 47
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
@@ -707,39 +1029,39 @@
               "status": "passed"
             },
             "line": 8,
-            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "name": "I prefer the \"uv\" to be \"12\" for \"Balmoral\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"uv\"",
-                  "offset": 12
+                  "offset": 13
                 },
                 {
-                  "val": "\"3\"",
-                  "offset": 23
+                  "val": "\"12\"",
+                  "offset": 24
                 },
                 {
-                  "val": "\"Bondi\"",
-                  "offset": 31
+                  "val": "\"Balmoral\"",
+                  "offset": 33
                 }
               ],
-              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.SydneyBeachForecastStepDefinitions.I_prefer_the(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@auto"
+            "name": "@forecast"
           }
         ]
       }
     ],
-    "name": "To implement a test to automate the Weather forecast for the Top beaches",
+    "name": "Beach Weather forecast for surfing of the Top beaches",
     "description": "",
-    "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches",
+    "id": "beach-weather-forecast-for-surfing-of-the-top-beaches",
     "keyword": "Feature",
-    "uri": "file:src/test/java/Feature/WeatherForecast.feature",
+    "uri": "file:src/test/java/Feature/BeachesForecast.feature",
     "tags": []
   }
 ]

@@ -11,19 +11,19 @@ import java.util.List;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.log4j.Logger;
 
-import POJO.WeatherForecastResponse;
-import POJO.WeatherSixteenDays;
+import POJO.BeachForecastResponse;
+import POJO.BeachWeatherForSixteenDays;
 import io.restassured.parsing.Parser;
 import io.restassured.specification.ResponseSpecification;
 
 public class Tools {
-	protected static String log4jPath = System.getProperty("user.dir")+"\\log4j.properties";
+	protected static String log4jPath = System.getProperty("user.dir")+"//log4j.properties";
 	protected static Logger log = Logger.getLogger("WeatherLogger");
-	protected static WeatherSixteenDays wfrSixteen;
+	protected static BeachWeatherForSixteenDays wfrSixteen;
    	protected static ResponseSpecification  responseSpec;
    	protected static String baseUri,keyValueAPI;
    	protected static int expectedNoOfDays=2;
-   	protected static WeatherForecastResponse wfr;
+   	protected static BeachForecastResponse wfr;
    	
    	protected  HashMap<Integer,HashMap<String,String>> filteredWeatherList= new HashMap<Integer,HashMap<String,String>>(); 
    	protected  HashMap<Integer,HashMap<String,String>> filteredTempList=new HashMap<Integer,HashMap<String,String>>();
@@ -56,7 +56,7 @@ public class Tools {
   		return responseSpec;
   	}
   
-    public  void applyFilterForDays(String noOfDays, String days) throws Throwable
+    public  void applyFilterForDays(String noOfDays, String days, String beach) throws Throwable
     {
     	int count=0;
     	  HashMap<String,String> m;
@@ -64,7 +64,7 @@ public class Tools {
 		String day1=days.split(" ")[0];
 		String day2=days.split(" ")[1];
 		
-    	List<WeatherForecastResponse> wf = wfrSixteen.getData();
+    	List<BeachForecastResponse> wf = wfrSixteen.getData();
     	log.info(wf.size()+"DAYS OF WEATHER CONDITION");
     	if(actualNoOfDays==expectedNoOfDays)
 		{
@@ -86,6 +86,7 @@ public class Tools {
 				m.put("uv", wfr.getUv()) ;
 				filteredWeatherList.put(count, m);
 				log.info("FILTER BASED ON SPECIFIC DAYS IS GETTING READY for "+count+ "with values"+m);
+				log.info( beach+ " beach is the best spot for" +wfr.getDatetime()+ " with prefered UV "+wfr.getUv()+" and prefered Temperature " + wfr.getTemp());
 			}
 			else {
 				

@@ -16,12 +16,12 @@ public class Hooks extends Tools {
 	
 
 
-		@Before ("@auto")
+		@Before ("@forecast")
 		public void beforeScenario() throws Throwable
 		{
 			PropertyConfigurator.configure(log4jPath);
-			Properties p= new Properties();;
-	   	   	FileInputStream f= new FileInputStream(System.getProperty("user.dir")+"\\global.properties");
+			Properties p= new Properties();
+	   	   	FileInputStream f= new FileInputStream(System.getProperty("user.dir")+"//global.properties");
 	   		p.load(f);
 	   	    baseUri=p.getProperty("UriBase");
 	     	keyValueAPI=p.getProperty("keyValue");
@@ -30,7 +30,7 @@ public class Hooks extends Tools {
 		}
 		
 		
-		@After ("@auto")
+		@After ("@forecast")
 		public void afterScenario()
 		{
 			log.info("Closing the Weather forecast API Testing");
