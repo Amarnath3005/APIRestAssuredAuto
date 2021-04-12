@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="cucumber.Options.TestRunner" time="13.945" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="cucumber.Options.TestRunner" time="14.299" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @forecast"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.261-b12"/>
     <property name="user.country.format" value="AU"/>
@@ -35,8 +36,8 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.15.7"/>
-    <property name="library.jansi.path" value="/Users/amarnathvattigunta/Downloads/apache-maven-3.6.3/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="library.jansi.path" value="/Users/amarnathvattigunta/Downloads/apache-maven-3.6.3/lib/jansi-native"/>
     <property name="user.home" value="/Users/amarnathvattigunta"/>
     <property name="user.timezone" value="Australia/Sydney"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -47,7 +48,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify -Dcucumber.options=--tags @forecast"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -65,11 +66,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;CurlCurl&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Curl Curl&quot;" time="4"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;DeeWhy&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Dee Why&quot;" time="1.967"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Shelly&quot;" time="1.465"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Bondi&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Bondi&quot;" time="1.603"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Balmoral&quot;" time="1.533"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;ITS NOT A MONDAY OR FRIDAY&quot;" time="1.644"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;NUMBER OF DAYS IS MORE THAN 3&quot;" time="1.733"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;CurlCurl&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;Preffered Day to visit Curl Curl&quot;" time="4.41"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;DeeWhy&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;Preffered Day to visit Dee Why&quot;" time="1.629"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;Preffered Day to visit Shelly&quot;" time="1.817"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Bondi&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;Preffered Day to visit Bondi&quot;" time="1.534"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;Preffered Day to visit Balmoral&quot;" time="1.531"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;ITS NOT A MONDAY OR FRIDAY&quot;" time="1.845"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days.  &quot;POSITIVE&quot; - &quot;NUMBER OF DAYS IS MORE THAN 3&quot;" time="1.533"/>
 </testsuite>

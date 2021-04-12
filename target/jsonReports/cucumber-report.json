@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-12T12:20:32.946Z",
+        "start_timestamp": "2021-04-12T13:17:24.229Z",
         "before": [
           {
             "result": {
-              "duration": 53000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,12 @@
           }
         ],
         "line": 13,
-        "name": "As a choosey surfer wanting to visit \"CurlCurl\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Curl Curl\"",
+        "name": "As a choosey surfer wanting to visit \"CurlCurl\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"Preffered Day to visit Curl Curl\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;2",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;2",
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 632000000,
+              "duration": 539000000,
               "status": "passed"
             },
             "line": 4,
@@ -61,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 2936000000,
+              "duration": 3622000000,
               "status": "passed"
             },
             "line": 5,
@@ -73,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 6,
@@ -99,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -156,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:36.672Z",
+        "start_timestamp": "2021-04-12T13:17:28.532Z",
         "before": [
           {
             "result": {
-              "duration": 17000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "match": {
@@ -169,12 +168,13 @@
           }
         ],
         "line": 14,
-        "name": "As a choosey surfer wanting to visit \"DeeWhy\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Dee Why\"",
+        "name": "As a choosey surfer wanting to visit \"DeeWhy\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"Preffered Day to visit Dee Why\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;3",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;3",
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 4,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 1940000000,
+              "duration": 1554000000,
               "status": "passed"
             },
             "line": 5,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 6,
@@ -307,11 +307,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:38.636Z",
+        "start_timestamp": "2021-04-12T13:17:30.164Z",
         "before": [
           {
             "result": {
-              "duration": 7000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -320,12 +320,13 @@
           }
         ],
         "line": 15,
-        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Shelly\"",
+        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"Preffered Day to visit Shelly\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;4",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;4",
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -338,6 +339,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 4,
@@ -363,7 +365,7 @@
           },
           {
             "result": {
-              "duration": 1451000000,
+              "duration": 1800000000,
               "status": "passed"
             },
             "line": 5,
@@ -426,7 +428,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -458,7 +459,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:40.102Z",
+        "start_timestamp": "2021-04-12T13:17:31.977Z",
         "before": [
           {
             "result": {
@@ -471,9 +472,9 @@
           }
         ],
         "line": 16,
-        "name": "As a choosey surfer wanting to visit \"Bondi\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Bondi\"",
+        "name": "As a choosey surfer wanting to visit \"Bondi\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"Preffered Day to visit Bondi\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;5",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;5",
         "after": [
           {
             "result": {
@@ -489,7 +490,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 4,
@@ -515,7 +516,7 @@
           },
           {
             "result": {
-              "duration": 1589000000,
+              "duration": 1515000000,
               "status": "passed"
             },
             "line": 5,
@@ -609,11 +610,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:41.705Z",
+        "start_timestamp": "2021-04-12T13:17:33.505Z",
         "before": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "match": {
@@ -622,9 +623,9 @@
           }
         ],
         "line": 17,
-        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"Best Day to visit Balmoral\"",
+        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"Preffered Day to visit Balmoral\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;6",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;6",
         "after": [
           {
             "result": {
@@ -640,6 +641,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 4,
@@ -665,7 +667,7 @@
           },
           {
             "result": {
-              "duration": 1521000000,
+              "duration": 1525000000,
               "status": "passed"
             },
             "line": 5,
@@ -759,11 +761,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:43.237Z",
+        "start_timestamp": "2021-04-12T13:17:35.041Z",
         "before": [
           {
             "result": {
-              "duration": 7000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "match": {
@@ -772,13 +774,12 @@
           }
         ],
         "line": 19,
-        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"ITS NOT A MONDAY OR FRIDAY\"",
+        "name": "As a choosey surfer wanting to visit \"Shelly\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"ITS NOT A MONDAY OR FRIDAY\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;7",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;7",
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -817,7 +818,7 @@
           },
           {
             "result": {
-              "duration": 1630000000,
+              "duration": 1832000000,
               "status": "passed"
             },
             "line": 5,
@@ -910,7 +911,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T12:20:44.878Z",
+        "start_timestamp": "2021-04-12T13:17:36.885Z",
         "before": [
           {
             "result": {
@@ -923,9 +924,9 @@
           }
         ],
         "line": 21,
-        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days \"POSITIVE\" - \"NUMBER OF DAYS IS MORE THAN 3\"",
+        "name": "As a choosey surfer wanting to visit \"Balmoral\" on Monday and Tuesday in next sixteen Days.  \"POSITIVE\" - \"NUMBER OF DAYS IS MORE THAN 3\"",
         "description": "",
-        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days-\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;8",
+        "id": "beach-weather-forecast-for-surfing-of-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-on-monday-and-tuesday-in-next-sixteen-days.--\"\u003cscenario\u003e\"---\"\u003cdescription\u003e\";;8",
         "after": [
           {
             "result": {
@@ -967,7 +968,7 @@
           },
           {
             "result": {
-              "duration": 1725000000,
+              "duration": 1523000000,
               "status": "passed"
             },
             "line": 5,
