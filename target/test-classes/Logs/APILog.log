@@ -1,49 +1,516 @@
-12/04/2021 18:51:09 WeatherLogger *****************************************************************
-12/04/2021 18:51:09 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:09 WeatherLogger Hitting the EndPoint URL for CurlCurl beach
-12/04/2021 18:51:14 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:14 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:14 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:14 WeatherLogger *****************************************************************
-12/04/2021 18:51:14 WeatherLogger *****************************************************************
-12/04/2021 18:51:14 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:14 WeatherLogger Hitting the EndPoint URL for DeeWhy beach
-12/04/2021 18:51:15 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:15 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:15 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:15 WeatherLogger *****************************************************************
-12/04/2021 18:51:15 WeatherLogger *****************************************************************
-12/04/2021 18:51:15 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:15 WeatherLogger Hitting the EndPoint URL for Shelly beach
-12/04/2021 18:51:17 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:17 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:17 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:17 WeatherLogger *****************************************************************
-12/04/2021 18:51:17 WeatherLogger *****************************************************************
-12/04/2021 18:51:17 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:17 WeatherLogger Hitting the EndPoint URL for Bondi beach
-12/04/2021 18:51:18 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:18 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:18 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:18 WeatherLogger *****************************************************************
-12/04/2021 18:51:18 WeatherLogger *****************************************************************
-12/04/2021 18:51:18 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:18 WeatherLogger Hitting the EndPoint URL for Balmoral beach
-12/04/2021 18:51:20 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:20 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:20 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:20 WeatherLogger *****************************************************************
-12/04/2021 18:51:20 WeatherLogger *****************************************************************
-12/04/2021 18:51:20 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:20 WeatherLogger Hitting the EndPoint URL for Shelly beach
-12/04/2021 18:51:21 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:21 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY
-12/04/2021 18:51:21 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:21 WeatherLogger *****************************************************************
-12/04/2021 18:51:22 WeatherLogger *****************************************************************
-12/04/2021 18:51:22 WeatherLogger Launching the Weather forecast API Testing
-12/04/2021 18:51:22 WeatherLogger Hitting the EndPoint URL for Balmoral beach
-12/04/2021 18:51:23 WeatherLogger 16DAYS OF WEATHER CONDITION
-12/04/2021 18:51:23 WeatherLogger NUMBER OF DAYS NOT EQUAL TO 2
-12/04/2021 18:51:23 WeatherLogger Closing the Weather forecast API Testing
-12/04/2021 18:51:23 WeatherLogger *****************************************************************
+12/04/2021 22:11:46 WeatherLogger *****************************************************************
+12/04/2021 22:11:46 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:46 WeatherLogger Hitting the EndPoint URL for CurlCurl beach
+12/04/2021 22:11:50 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:50 WeatherLogger CurlCurl beach is the best spot for2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:11:50 WeatherLogger 2021-04-13NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-14NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-15NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger CurlCurl beach is the best spot for2021-04-16 with prefered UV 1.7817267 and prefered Temperature 15.8
+12/04/2021 22:11:50 WeatherLogger 2021-04-17NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-18NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger CurlCurl beach is the best spot for2021-04-19 with prefered UV 4.9748163 and prefered Temperature 15.8
+12/04/2021 22:11:50 WeatherLogger 2021-04-20NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-21NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-22NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger CurlCurl beach is the best spot for2021-04-23 with prefered UV 1.1417905 and prefered Temperature 18.4
+12/04/2021 22:11:50 WeatherLogger 2021-04-24NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger 2021-04-25NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger CurlCurl beach is the best spot for2021-04-26 with prefered UV 1.3593225 and prefered Temperature 21.9
+12/04/2021 22:11:50 WeatherLogger 2021-04-27NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:50 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:11:50 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:50 WeatherLogger *****************************************************************
+12/04/2021 22:11:50 WeatherLogger *****************************************************************
+12/04/2021 22:11:50 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:50 WeatherLogger Hitting the EndPoint URL for DeeWhy beach
+12/04/2021 22:11:51 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:51 WeatherLogger DeeWhy beach is the best spot for2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:11:51 WeatherLogger 2021-04-13NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-14NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-15NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger DeeWhy beach is the best spot for2021-04-16 with prefered UV 1.78173 and prefered Temperature 15.8
+12/04/2021 22:11:51 WeatherLogger 2021-04-17NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-18NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger DeeWhy beach is the best spot for2021-04-19 with prefered UV 4.97482 and prefered Temperature 15.8
+12/04/2021 22:11:51 WeatherLogger 2021-04-20NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-21NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-22NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger DeeWhy beach is the best spot for2021-04-23 with prefered UV 1.14179 and prefered Temperature 18.4
+12/04/2021 22:11:51 WeatherLogger 2021-04-24NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger 2021-04-25NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger DeeWhy beach is the best spot for2021-04-26 with prefered UV 1.35932 and prefered Temperature 21.9
+12/04/2021 22:11:51 WeatherLogger 2021-04-27NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:51 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:11:51 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:51 WeatherLogger *****************************************************************
+12/04/2021 22:11:51 WeatherLogger *****************************************************************
+12/04/2021 22:11:51 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:51 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:11:53 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:53 WeatherLogger Shelly beach is the best spot for2021-04-12 with prefered UV 0 and prefered Temperature 14.2
+12/04/2021 22:11:53 WeatherLogger 2021-04-13NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-14NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-15NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger Shelly beach is the best spot for2021-04-16 with prefered UV 1.85685 and prefered Temperature 16
+12/04/2021 22:11:53 WeatherLogger 2021-04-17NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-18NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger Shelly beach is the best spot for2021-04-19 with prefered UV 5.02246 and prefered Temperature 16.4
+12/04/2021 22:11:53 WeatherLogger 2021-04-20NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-21NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-22NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger Shelly beach is the best spot for2021-04-23 with prefered UV 0.666017 and prefered Temperature 18.9
+12/04/2021 22:11:53 WeatherLogger 2021-04-24NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger 2021-04-25NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger Shelly beach is the best spot for2021-04-26 with prefered UV 1.49899 and prefered Temperature 22.4
+12/04/2021 22:11:53 WeatherLogger 2021-04-27NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:53 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:11:53 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:53 WeatherLogger *****************************************************************
+12/04/2021 22:11:53 WeatherLogger *****************************************************************
+12/04/2021 22:11:53 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:53 WeatherLogger Hitting the EndPoint URL for Bondi beach
+12/04/2021 22:11:54 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:54 WeatherLogger Bondi beach is the best spot for2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:11:54 WeatherLogger 2021-04-13NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-14NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-15NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger Bondi beach is the best spot for2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:11:54 WeatherLogger 2021-04-17NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-18NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger Bondi beach is the best spot for2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:11:54 WeatherLogger 2021-04-20NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-21NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-22NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger Bondi beach is the best spot for2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:11:54 WeatherLogger 2021-04-24NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger 2021-04-25NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger Bondi beach is the best spot for2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:11:54 WeatherLogger 2021-04-27NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:54 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:11:54 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:54 WeatherLogger *****************************************************************
+12/04/2021 22:11:54 WeatherLogger *****************************************************************
+12/04/2021 22:11:54 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:54 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:11:56 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:56 WeatherLogger Balmoral beach is the best spot for2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:11:56 WeatherLogger 2021-04-13NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-14NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-15NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger Balmoral beach is the best spot for2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:11:56 WeatherLogger 2021-04-17NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-18NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger Balmoral beach is the best spot for2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:11:56 WeatherLogger 2021-04-20NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-21NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-22NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger Balmoral beach is the best spot for2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:11:56 WeatherLogger 2021-04-24NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger 2021-04-25NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger Balmoral beach is the best spot for2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:11:56 WeatherLogger 2021-04-27NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:56 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:11:56 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:56 WeatherLogger *****************************************************************
+12/04/2021 22:11:56 WeatherLogger *****************************************************************
+12/04/2021 22:11:56 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:56 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:11:57 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:57 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:11:57 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:57 WeatherLogger *****************************************************************
+12/04/2021 22:11:57 WeatherLogger *****************************************************************
+12/04/2021 22:11:57 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:11:57 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:11:59 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:11:59 WeatherLogger NUMBER OF DAYS NOT EQUAL TO 2
+12/04/2021 22:11:59 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:11:59 WeatherLogger *****************************************************************
+12/04/2021 22:14:57 WeatherLogger *****************************************************************
+12/04/2021 22:14:57 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:14:57 WeatherLogger Hitting the EndPoint URL for CurlCurl beach
+12/04/2021 22:15:00 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:00 WeatherLogger CurlCurl beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:15:00 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger CurlCurl beach is the best spot for 2021-04-16 with prefered UV 1.7817267 and prefered Temperature 15.8
+12/04/2021 22:15:00 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger CurlCurl beach is the best spot for 2021-04-19 with prefered UV 4.9748163 and prefered Temperature 15.8
+12/04/2021 22:15:00 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger CurlCurl beach is the best spot for 2021-04-23 with prefered UV 1.1417905 and prefered Temperature 18.4
+12/04/2021 22:15:00 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger CurlCurl beach is the best spot for 2021-04-26 with prefered UV 1.3593225 and prefered Temperature 21.9
+12/04/2021 22:15:00 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:00 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:15:00 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:00 WeatherLogger *****************************************************************
+12/04/2021 22:15:00 WeatherLogger *****************************************************************
+12/04/2021 22:15:00 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:00 WeatherLogger Hitting the EndPoint URL for DeeWhy beach
+12/04/2021 22:15:02 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:02 WeatherLogger DeeWhy beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:15:02 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger DeeWhy beach is the best spot for 2021-04-16 with prefered UV 1.78173 and prefered Temperature 15.8
+12/04/2021 22:15:02 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger DeeWhy beach is the best spot for 2021-04-19 with prefered UV 4.97482 and prefered Temperature 15.8
+12/04/2021 22:15:02 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger DeeWhy beach is the best spot for 2021-04-23 with prefered UV 1.14179 and prefered Temperature 18.4
+12/04/2021 22:15:02 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger DeeWhy beach is the best spot for 2021-04-26 with prefered UV 1.35932 and prefered Temperature 21.9
+12/04/2021 22:15:02 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:02 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:15:02 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:02 WeatherLogger *****************************************************************
+12/04/2021 22:15:02 WeatherLogger *****************************************************************
+12/04/2021 22:15:02 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:02 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:15:04 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:04 WeatherLogger Shelly beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.2
+12/04/2021 22:15:04 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger Shelly beach is the best spot for 2021-04-16 with prefered UV 1.85685 and prefered Temperature 16
+12/04/2021 22:15:04 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger Shelly beach is the best spot for 2021-04-19 with prefered UV 5.02246 and prefered Temperature 16.4
+12/04/2021 22:15:04 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger Shelly beach is the best spot for 2021-04-23 with prefered UV 0.666017 and prefered Temperature 18.9
+12/04/2021 22:15:04 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger Shelly beach is the best spot for 2021-04-26 with prefered UV 1.49899 and prefered Temperature 22.4
+12/04/2021 22:15:04 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:04 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:15:04 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:04 WeatherLogger *****************************************************************
+12/04/2021 22:15:04 WeatherLogger *****************************************************************
+12/04/2021 22:15:04 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:04 WeatherLogger Hitting the EndPoint URL for Bondi beach
+12/04/2021 22:15:05 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:05 WeatherLogger Bondi beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:15:05 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger Bondi beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:15:05 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger Bondi beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:15:05 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger Bondi beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:15:05 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger Bondi beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:15:05 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:05 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:15:05 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:05 WeatherLogger *****************************************************************
+12/04/2021 22:15:05 WeatherLogger *****************************************************************
+12/04/2021 22:15:05 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:05 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:15:07 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:07 WeatherLogger Balmoral beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:15:07 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger Balmoral beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:15:07 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger Balmoral beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:15:07 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger Balmoral beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:15:07 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger Balmoral beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:15:07 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:07 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:15:07 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:07 WeatherLogger *****************************************************************
+12/04/2021 22:15:07 WeatherLogger *****************************************************************
+12/04/2021 22:15:07 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:07 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:15:08 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:08 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:15:08 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:08 WeatherLogger *****************************************************************
+12/04/2021 22:15:08 WeatherLogger *****************************************************************
+12/04/2021 22:15:08 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:15:08 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:15:10 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:15:10 WeatherLogger NUMBER OF DAYS NOT EQUAL TO 2
+12/04/2021 22:15:10 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:15:10 WeatherLogger *****************************************************************
+12/04/2021 22:19:41 WeatherLogger *****************************************************************
+12/04/2021 22:19:41 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:41 WeatherLogger Hitting the EndPoint URL for CurlCurl beach
+12/04/2021 22:19:45 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:45 WeatherLogger CurlCurl beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:19:45 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger CurlCurl beach is the best spot for 2021-04-16 with prefered UV 1.7817267 and prefered Temperature 15.8
+12/04/2021 22:19:45 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger CurlCurl beach is the best spot for 2021-04-19 with prefered UV 4.9748163 and prefered Temperature 15.8
+12/04/2021 22:19:45 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger CurlCurl beach is the best spot for 2021-04-23 with prefered UV 1.1417905 and prefered Temperature 18.4
+12/04/2021 22:19:45 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger CurlCurl beach is the best spot for 2021-04-26 with prefered UV 1.3593225 and prefered Temperature 21.9
+12/04/2021 22:19:45 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:45 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:19:45 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:45 WeatherLogger *****************************************************************
+12/04/2021 22:19:45 WeatherLogger *****************************************************************
+12/04/2021 22:19:45 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:45 WeatherLogger Hitting the EndPoint URL for DeeWhy beach
+12/04/2021 22:19:46 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:46 WeatherLogger DeeWhy beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:19:46 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger DeeWhy beach is the best spot for 2021-04-16 with prefered UV 1.78173 and prefered Temperature 15.8
+12/04/2021 22:19:46 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger DeeWhy beach is the best spot for 2021-04-19 with prefered UV 4.97482 and prefered Temperature 15.8
+12/04/2021 22:19:46 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger DeeWhy beach is the best spot for 2021-04-23 with prefered UV 1.14179 and prefered Temperature 18.4
+12/04/2021 22:19:46 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger DeeWhy beach is the best spot for 2021-04-26 with prefered UV 1.35932 and prefered Temperature 21.9
+12/04/2021 22:19:46 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:46 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:19:46 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:46 WeatherLogger *****************************************************************
+12/04/2021 22:19:46 WeatherLogger *****************************************************************
+12/04/2021 22:19:46 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:46 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:19:48 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:48 WeatherLogger Shelly beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.2
+12/04/2021 22:19:48 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger Shelly beach is the best spot for 2021-04-16 with prefered UV 1.85685 and prefered Temperature 16
+12/04/2021 22:19:48 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger Shelly beach is the best spot for 2021-04-19 with prefered UV 5.02246 and prefered Temperature 16.4
+12/04/2021 22:19:48 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger Shelly beach is the best spot for 2021-04-23 with prefered UV 0.666017 and prefered Temperature 18.9
+12/04/2021 22:19:48 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger Shelly beach is the best spot for 2021-04-26 with prefered UV 1.49899 and prefered Temperature 22.4
+12/04/2021 22:19:48 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:48 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:19:48 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:48 WeatherLogger *****************************************************************
+12/04/2021 22:19:48 WeatherLogger *****************************************************************
+12/04/2021 22:19:48 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:48 WeatherLogger Hitting the EndPoint URL for Bondi beach
+12/04/2021 22:19:49 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:49 WeatherLogger Bondi beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:19:49 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger Bondi beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:19:49 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger Bondi beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:19:49 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger Bondi beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:19:49 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger Bondi beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:19:49 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:49 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:19:49 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:49 WeatherLogger *****************************************************************
+12/04/2021 22:19:49 WeatherLogger *****************************************************************
+12/04/2021 22:19:49 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:49 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:19:51 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:51 WeatherLogger Balmoral beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:19:51 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger Balmoral beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:19:51 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger Balmoral beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:19:51 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger Balmoral beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:19:51 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger Balmoral beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:19:51 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:51 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:19:51 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:51 WeatherLogger *****************************************************************
+12/04/2021 22:19:51 WeatherLogger *****************************************************************
+12/04/2021 22:19:51 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:51 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:19:52 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:52 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:19:52 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:52 WeatherLogger *****************************************************************
+12/04/2021 22:19:52 WeatherLogger *****************************************************************
+12/04/2021 22:19:52 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:19:52 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:19:54 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:19:54 WeatherLogger NUMBER OF DAYS NOT EQUAL TO 2
+12/04/2021 22:19:54 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:19:54 WeatherLogger *****************************************************************
+12/04/2021 22:20:33 WeatherLogger *****************************************************************
+12/04/2021 22:20:33 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:33 WeatherLogger Hitting the EndPoint URL for CurlCurl beach
+12/04/2021 22:20:36 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:36 WeatherLogger CurlCurl beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:20:36 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger CurlCurl beach is the best spot for 2021-04-16 with prefered UV 1.7817267 and prefered Temperature 15.8
+12/04/2021 22:20:36 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger CurlCurl beach is the best spot for 2021-04-19 with prefered UV 4.9748163 and prefered Temperature 15.8
+12/04/2021 22:20:36 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger CurlCurl beach is the best spot for 2021-04-23 with prefered UV 1.1417905 and prefered Temperature 18.4
+12/04/2021 22:20:36 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger CurlCurl beach is the best spot for 2021-04-26 with prefered UV 1.3593225 and prefered Temperature 21.9
+12/04/2021 22:20:36 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:36 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:20:36 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:36 WeatherLogger *****************************************************************
+12/04/2021 22:20:36 WeatherLogger *****************************************************************
+12/04/2021 22:20:36 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:36 WeatherLogger Hitting the EndPoint URL for DeeWhy beach
+12/04/2021 22:20:38 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:38 WeatherLogger DeeWhy beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:20:38 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger DeeWhy beach is the best spot for 2021-04-16 with prefered UV 1.78173 and prefered Temperature 15.8
+12/04/2021 22:20:38 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger DeeWhy beach is the best spot for 2021-04-19 with prefered UV 4.97482 and prefered Temperature 15.8
+12/04/2021 22:20:38 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger DeeWhy beach is the best spot for 2021-04-23 with prefered UV 1.14179 and prefered Temperature 18.4
+12/04/2021 22:20:38 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger DeeWhy beach is the best spot for 2021-04-26 with prefered UV 1.35932 and prefered Temperature 21.9
+12/04/2021 22:20:38 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:38 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:20:38 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:38 WeatherLogger *****************************************************************
+12/04/2021 22:20:38 WeatherLogger *****************************************************************
+12/04/2021 22:20:38 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:38 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:20:40 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:40 WeatherLogger Shelly beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.2
+12/04/2021 22:20:40 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger Shelly beach is the best spot for 2021-04-16 with prefered UV 1.85685 and prefered Temperature 16
+12/04/2021 22:20:40 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger Shelly beach is the best spot for 2021-04-19 with prefered UV 5.02246 and prefered Temperature 16.4
+12/04/2021 22:20:40 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger Shelly beach is the best spot for 2021-04-23 with prefered UV 0.666017 and prefered Temperature 18.9
+12/04/2021 22:20:40 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger Shelly beach is the best spot for 2021-04-26 with prefered UV 1.49899 and prefered Temperature 22.4
+12/04/2021 22:20:40 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:40 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:20:40 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:40 WeatherLogger *****************************************************************
+12/04/2021 22:20:40 WeatherLogger *****************************************************************
+12/04/2021 22:20:40 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:40 WeatherLogger Hitting the EndPoint URL for Bondi beach
+12/04/2021 22:20:41 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:41 WeatherLogger Bondi beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:20:41 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger Bondi beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:20:41 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger Bondi beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:20:41 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger Bondi beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:20:41 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger Bondi beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:20:41 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:41 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:20:41 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:41 WeatherLogger *****************************************************************
+12/04/2021 22:20:41 WeatherLogger *****************************************************************
+12/04/2021 22:20:41 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:41 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:20:43 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:43 WeatherLogger Balmoral beach is the best spot for 2021-04-12 with prefered UV 0 and prefered Temperature 14.3
+12/04/2021 22:20:43 WeatherLogger 2021-04-13 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-14 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-15 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger Balmoral beach is the best spot for 2021-04-16 with prefered UV 1.7707 and prefered Temperature 15.8
+12/04/2021 22:20:43 WeatherLogger 2021-04-17 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-18 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger Balmoral beach is the best spot for 2021-04-19 with prefered UV 4.94517 and prefered Temperature 15.8
+12/04/2021 22:20:43 WeatherLogger 2021-04-20 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-21 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-22 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger Balmoral beach is the best spot for 2021-04-23 with prefered UV 1.14022 and prefered Temperature 18.4
+12/04/2021 22:20:43 WeatherLogger 2021-04-24 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger 2021-04-25 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger Balmoral beach is the best spot for 2021-04-26 with prefered UV 1.35752 and prefered Temperature 21.9
+12/04/2021 22:20:43 WeatherLogger 2021-04-27 IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:43 WeatherLogger LIST FOR TEMP = = 5
+12/04/2021 22:20:43 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:43 WeatherLogger *****************************************************************
+12/04/2021 22:20:43 WeatherLogger *****************************************************************
+12/04/2021 22:20:43 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:43 WeatherLogger Hitting the EndPoint URL for Shelly beach
+12/04/2021 22:20:44 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:44 WeatherLogger THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A MONDAY OR A FRIDAY
+12/04/2021 22:20:44 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:44 WeatherLogger *****************************************************************
+12/04/2021 22:20:44 WeatherLogger *****************************************************************
+12/04/2021 22:20:44 WeatherLogger Launching the Weather forecast API Testing
+12/04/2021 22:20:44 WeatherLogger Hitting the EndPoint URL for Balmoral beach
+12/04/2021 22:20:46 WeatherLogger 16DAYS OF WEATHER CONDITION
+12/04/2021 22:20:46 WeatherLogger NUMBER OF DAYS NOT EQUAL TO 2
+12/04/2021 22:20:46 WeatherLogger Closing the Weather forecast API Testing
+12/04/2021 22:20:46 WeatherLogger *****************************************************************

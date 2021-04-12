@@ -68,7 +68,7 @@ public class Tools {
     	log.info(wf.size()+"DAYS OF WEATHER CONDITION");
     	if(actualNoOfDays==expectedNoOfDays)
 		{
-    		if(day1.equalsIgnoreCase("thursday")&& day2.equalsIgnoreCase("friday")) {
+    		if(day1.equalsIgnoreCase("monday")&& day2.equalsIgnoreCase("friday")) {
 		for(int i=0;i<wf.size();i++)
 		{
 			wfr=wf.get(i);
@@ -85,19 +85,19 @@ public class Tools {
 				m.put("temp", wfr.getTemp());
 				m.put("uv", wfr.getUv()) ;
 				filteredWeatherList.put(count, m);
-				log.info("FILTER BASED ON SPECIFIC DAYS IS GETTING READY for "+count+ "with values"+m);
-				log.info( beach+ " beach is the best spot for" +wfr.getDatetime()+ " with prefered UV "+wfr.getUv()+" and prefered Temperature " + wfr.getTemp());
+				//log.info("FILTER BASED ON SPECIFIC DAYS IS GETTING READY for "+count+ "with values"+m);
+				log.info( beach+ " beach is the best spot for " +wfr.getDatetime()+ " with prefered UV "+wfr.getUv()+" and prefered Temperature " + wfr.getTemp());
 			}
 			else {
 				
-				log.info(wfr.getDatetime()+"NOT A THURSDAY OR A FRIDAY");
+				log.info(wfr.getDatetime()+" IS NOT A MONDAY OR A FRIDAY");
 				}
 		}
 		
 		log.info("LIST FOR TEMP = = "+filteredWeatherList.size());
 		if(filteredWeatherList.size()==0)
 	  	   {log.info("NO THURSDAYS OR FRIDAYS IN THIS PERIOD");}
-		} else {log.info("THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A THURSDAY OR A FRIDAY");}
+		} else {log.info("THE DAYS PROVIDED IN THE FEATURE FILE IS NOT A MONDAY OR A FRIDAY");}
 		}
 			else
 			{log.info("NUMBER OF DAYS NOT EQUAL TO 2");}
@@ -136,7 +136,7 @@ public class Tools {
     	
     	log.info("LIST FOR UV = = "+filteredTempList.size());
     	if(filteredTempList.size()==0)
-    	{log.info("NOT A SINGLE DAY THAT HAS TEMPERATURE BETWEEN 20 and 30");}
+    	{log.info("NOT A SINGLE DAY THAT HAS TEMPERATURE BETWEEN 12 and 30");}
     	
 	    }
 	   
@@ -163,7 +163,7 @@ public class Tools {
    		}
     	   log.info("FInal filtered UV LIST "+filteredUVList.size());
     	   if(filteredUVList.size()==0)
-    	   {log.info("NOT A SINGLE DAY THAT HAS UV THRESHOLD LESS THAN or EQUAL TO 3");}
+    	   {log.info("NOT A SINGLE DAY THAT HAS UV THRESHOLD LESS THAN or EQUAL TO 12");}
     	 }
       }
     

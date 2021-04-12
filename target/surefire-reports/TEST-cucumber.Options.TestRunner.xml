@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="cucumber.Options.TestRunner" time="14.197" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="cucumber.Options.TestRunner" time="13.945" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib"/>
@@ -65,11 +65,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;CurlCurl&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Curl Curl&quot;" time="4.645"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;DeeWhy&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Dee Why&quot;" time="1.588"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Shelly&quot;" time="1.521"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Bondi&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Bondi&quot;" time="1.516"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Balmoral&quot;" time="1.551"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;ITS NOT A MONDAY OR FRIDAY&quot;" time="1.537"/>
-  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;NUMBER OF DAYS IS MORE THAN 3&quot;" time="1.839"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;CurlCurl&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Curl Curl&quot;" time="4"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;DeeWhy&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Dee Why&quot;" time="1.967"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Shelly&quot;" time="1.465"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Bondi&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Bondi&quot;" time="1.603"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;Best Day to visit Balmoral&quot;" time="1.533"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Shelly&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;ITS NOT A MONDAY OR FRIDAY&quot;" time="1.644"/>
+  <testcase classname="Beach Weather forecast for surfing of the Top beaches" name="As a choosey surfer wanting to visit &quot;Balmoral&quot; on Monday and Tuesday in next sixteen Days &quot;POSITIVE&quot; - &quot;NUMBER OF DAYS IS MORE THAN 3&quot;" time="1.733"/>
 </testsuite>
